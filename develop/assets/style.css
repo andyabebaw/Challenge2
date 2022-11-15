@@ -1,6 +1,12 @@
+:root {
+    --gray: #31343d;
+    --blue: #92ccce;
+    --left: 16px;
+  }
+
 header {
     display: flex;
-    background-color: #31343d;
+    background-color: var(--gray);
 }
 
 body {
@@ -11,7 +17,7 @@ body {
 .title {
     display: flex;
     color: #31343d;
-    background-color: #92ccce;
+    background-color: var(--blue);
     padding: 5px;
     padding-left: 40px;
 }
@@ -20,7 +26,7 @@ body {
     display: flex;
     float: right;
     color:#92ccce;
-    border-bottom: 3px solid #92ccce;
+    border-bottom: 3px solid var(--blue);
     padding-bottom: 3px;
     padding: 10px;
     margin-right: 5px;
@@ -35,7 +41,7 @@ body {
 
 .bodySection {
     display: flex;
-    color: #31343d;
+    color: var(--gray);
     width: 90%;
 }
 
@@ -43,34 +49,27 @@ body {
 .bodySection h2 {
     text-align: right;
     padding-left: 80px;
-    border-right: 3px solid #31343d;
+    border-right: 3px solid var(--gray);
     padding-right: 6px;
 }
 
 .bodySection p {
-    padding-left: 16px;
+    padding-left: var(--left);
     
 }
 
 .bodySection #contactMe{
-    padding-left: 16px;
+    padding-left: var(--left);
 }
 
-#headerImage {
+.headerImage {
     width: 100%;
 }
 
 #fullWidthImage img{
     width: 100%;
-    padding-left: 16px;
+    padding-left: var(--left);
     padding-top: 20px;
-}
-a {
-    color: gray;
-    text-decoration: none;
-    border-bottom: 3px solid #31343d;
-    padding-bottom: 3px;
-
 }
 
 .container {
@@ -79,8 +78,8 @@ a {
 }
 
 .bottom-right {
-    background-color: #92ccce;
-    color: #31343d;
+    background-color: var(--blue);
+    color: var(--gray);
     padding: 10px;
     position: absolute;
     bottom: 40px;
@@ -104,20 +103,21 @@ a{
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    flex-wrap: wrap;
+    padding-left: var(--left);
 }
 
-.contactMeLink 
+.contactMeLink
 {
-    display: flex;
-    float: right;
-    color:#31343d;
-    border-bottom: 3px solid #31343d;
-    padding: 10px;
-    padding-bottom: 0px;
-}
-
-.contactMeLink{
+    flex: 15%;
+    color:var(--gray);
+    margin: 5px;
+    padding-top: 40px;
+    height:50%;
+    text-align: center;
     align-items: center;
+    font-weight: bold;
+
 }
 
 .row {
@@ -126,7 +126,7 @@ a{
 
 .column {
     flex: 50%;
-    background-color: #31343d;
+    background-color: var(--gray);
 }
 
 .item {
@@ -153,18 +153,25 @@ a{
     position: absolute;
     bottom: 30px;
     left: 10px;
-    background-color: #92ccce;
-    color: #31343d;
+    background-color: var(--blue);
+    color: var(--gray);
     padding: 10px;
     text-align: start;
   }
 
   .bottom-left h3 {
     margin: 0px;
-    padding: 5px;
   }
 
   .bottom-left h5 {
     margin: 0px;
     padding: 5px;
+  }
+
+
+  /* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 768px) {
+    .imagesContainer > div {
+        flex: 100%;
+      }
   }
