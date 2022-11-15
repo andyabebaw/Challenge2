@@ -1,3 +1,4 @@
+/* cerates reusable variables for colors and padding */
 :root {
     --gray: #31343d;
     --blue: #92ccce;
@@ -16,7 +17,7 @@ body {
 
 .title {
     display: flex;
-    color: #31343d;
+    color: var(--gray);
     background-color: var(--blue);
     padding: 5px;
     padding-left: 40px;
@@ -25,7 +26,7 @@ body {
 .navBar {
     display: flex;
     float: right;
-    color:#92ccce;
+    color:var(--blue);
     border-bottom: 3px solid var(--blue);
     padding-bottom: 3px;
     padding: 10px;
@@ -66,6 +67,7 @@ body {
     width: 100%;
 }
 
+/* sets image width and padding within fulWidthimage id*/
 #fullWidthImage img{
     width: 100%;
     padding-left: var(--left);
@@ -77,6 +79,7 @@ body {
     text-align: center;
 }
 
+/* places image text in a box in the bottom right on the image */
 .bottom-right {
     background-color: var(--blue);
     color: var(--gray);
@@ -86,6 +89,7 @@ body {
     right: 80px;
   }
 
+/* styles header2 within bodyTitle class */
 .bodyTitle h2{
     height: 100%;
     width: 100px;
@@ -99,6 +103,7 @@ a{
     vertical-align: middle;
 }
 
+/* styles link section in contact me section*/
 .links {
     display: flex;
     justify-content: space-evenly;
@@ -107,6 +112,7 @@ a{
     padding-left: var(--left);
 }
 
+/* styles contactme Links inside of links class*/
 .contactMeLink
 {
     flex: 15%;
@@ -131,25 +137,28 @@ a{
 
 .item {
     width: 100%
-  }
-  
-  .imagesContainer {
+}
+ 
+/* sets wrap and padding of images in contactme section*/
+.imagesContainer {
     display: flex;
     flex-wrap: wrap;
     padding-top: 20px;
     padding-left: 6px;
-  }
-  
-  .imagesContainer > div {
+}
+
+/* styles divs within image container class*/
+.imagesContainer > div {
     flex: 40%;
     padding: 10px;
-  }
+}
 
-  #fullWidth {
+#fullWidth {
     flex: 100%;
-  }
+}
 
-  .bottom-left {
+  /* places image text in a box in the bottom left on the image */
+.bottom-left {
     position: absolute;
     bottom: 30px;
     left: 10px;
@@ -157,16 +166,17 @@ a{
     color: var(--gray);
     padding: 10px;
     text-align: start;
-  }
+}
 
-  .bottom-left h3 {
+  /* styles/places image primary text  */
+.bottom-left h3 {
     margin: 0px;
-  }
-
-  .bottom-left h5 {
+}
+/* styles/places image secondary text  */
+.bottom-left h5 {
     margin: 0px;
     padding: 5px;
-  }
+}
 
 
   /* Cards are stacked on top of each other at 768px or smaller */
