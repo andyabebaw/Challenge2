@@ -1,0 +1,170 @@
+header {
+    display: flex;
+    background-color: #31343d;
+}
+
+body {
+    margin: 0px;
+    background-color: #eeeef7;
+}
+
+.title {
+    display: flex;
+    color: #31343d;
+    background-color: #92ccce;
+    padding: 5px;
+    padding-left: 40px;
+}
+
+.navBar {
+    display: flex;
+    float: right;
+    color:#92ccce;
+    border-bottom: 3px solid #92ccce;
+    padding-bottom: 3px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.navBar2{
+    display: flex;
+   justify-content: flex-end;
+   width: 100%;
+   
+}
+
+.bodySection {
+    display: flex;
+    color: #31343d;
+    width: 90%;
+}
+
+
+.bodySection h2 {
+    text-align: right;
+    padding-left: 80px;
+    border-right: 3px solid #31343d;
+    padding-right: 6px;
+}
+
+.bodySection p {
+    padding-left: 16px;
+    
+}
+
+.bodySection #contactMe{
+    padding-left: 16px;
+}
+
+#headerImage {
+    width: 100%;
+}
+
+#fullWidthImage img{
+    width: 100%;
+    padding-left: 16px;
+    padding-top: 20px;
+}
+a {
+    color: gray;
+    text-decoration: none;
+    border-bottom: 3px solid #31343d;
+    padding-bottom: 3px;
+
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.bottom-right {
+    background-color: #92ccce;
+    color: #31343d;
+    padding: 10px;
+    position: absolute;
+    bottom: 40px;
+    right: 80px;
+  }
+
+.bodyTitle h2{
+    height: 100%;
+    width: 100px;
+}
+
+.bodyTitle{
+    padding-bottom: 10px;
+}
+
+a{
+    vertical-align: middle;
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.contactMeLink 
+{
+    display: flex;
+    float: right;
+    color:#31343d;
+    border-bottom: 3px solid #31343d;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.contactMeLink{
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    background-color: #31343d;
+}
+
+.item {
+    width: 100%
+  }
+  
+  .imagesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-left: 6px;
+  }
+  
+  .imagesContainer > div {
+    flex: 40%;
+    padding: 10px;
+  }
+
+  #fullWidth {
+    flex: 100%;
+  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 30px;
+    left: 10px;
+    background-color: #92ccce;
+    color: #31343d;
+    padding: 10px;
+    text-align: start;
+  }
+
+  .bottom-left h3 {
+    margin: 0px;
+    padding: 5px;
+  }
+
+  .bottom-left h5 {
+    margin: 0px;
+    padding: 5px;
+  }
