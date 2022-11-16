@@ -78,10 +78,8 @@ instead of text decoration to get more detailed thickness and padding */
     
 }
 
-
 .titleImage:hover{
-    -webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
--webkit-filter: brightness(50%); 
+    filter: blur(5px);
 }
 
 
