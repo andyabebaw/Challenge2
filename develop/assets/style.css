@@ -73,9 +73,17 @@ instead of text decoration to get more detailed thickness and padding */
     padding-left: var(--left);
 }
 
-.headerImage {
+.headerImage, .titleImage {
     width: 100%;
+    
 }
+
+
+.titleImage:hover{
+    -webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
+-webkit-filter: brightness(50%); 
+}
+
 
 /* sets image width and padding within fulWidthimage id*/
 #fullWidthImage img{
