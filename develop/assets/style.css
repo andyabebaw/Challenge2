@@ -1,4 +1,4 @@
-/* cerates reusable variables for colors and padding */
+/* creates reusable variables for colors and padding */
 :root {
     --gray: #31343d;
     --blue: #92ccce;
@@ -10,11 +10,13 @@ header {
     background-color: var(--gray);
 }
 
+/* Sets background color and margin of body*/
 body {
     margin: 0px;
     background-color: #eeeef7;
 }
 
+/* Styles the title in the header*/
 .title {
     display: flex;
     color: var(--gray);
@@ -23,6 +25,8 @@ body {
     padding-left: 40px;
 }
 
+/*styles links to have a bottom border, uses bottom border 
+instead of text decoration to get more detailed thickness and padding */
 .navBar {
     display: flex;
     float: right;
@@ -33,11 +37,17 @@ body {
     margin-right: 5px;
 }
 
-.navBar2{
+.navigation{
     display: flex;
-   justify-content: flex-end;
-   width: 100%;
+    justify-content: flex-end;
+    width: 100%;
    
+}
+
+/* Styles header links */
+.navigation a{
+    color: var(--blue);
+    text-decoration: none;
 }
 
 .bodySection {
