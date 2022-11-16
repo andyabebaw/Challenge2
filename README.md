@@ -1,5 +1,8 @@
 # Week Two Challenge
 
+## Github Pages
+ https://andyabebaw.github.io/Challenge2/
+ 
 ## Description
 
 This website was built to serve as a portfolio website for my future projects.  It has a header with links that work as a table of contents for the webpage where when clicked it skips to the selected links corresponding section on the page.  It also has a cover photo image of me and some of my friends to show who the page is about and title of software engineer on top.  Below that there is a section for projects that we will work on in the future.  Since I have not yet done any projects I used the same image for all the project sections to work as a temporary filler. Below that is a contact me section with links that are supposed to link to my contact details such as email github etc but I currently have it set to link back to the page.
