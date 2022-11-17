@@ -201,3 +201,10 @@ a{
         flex: 100%;
       }
   }
+
+    /* Cards are stacked on top of each other at 768px or smaller */
+@media screen and (max-width: 500px) {
+    .bodyTitle{
+        display: none;
+    }
+  }
