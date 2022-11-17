@@ -16,13 +16,18 @@ body {
     background-color: #eeeef7;
 }
 
+#profile{
+    padding: 20px;
+    border-radius: 50%;
+}
+
 /* Styles the title in the header*/
 .title {
     display: flex;
     color: var(--gray);
     background-color: var(--blue);
     padding: 5px;
-    padding-left: 40px;
+    padding-left: 10px;
 }
 
 /*styles links to have a bottom border, uses bottom border 
