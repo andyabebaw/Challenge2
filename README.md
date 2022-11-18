@@ -26,9 +26,9 @@ This website was built to serve as a portfolio website for my future projects.  
 
 This site can be used to learn about more about me, my projects Ive worked on, and contact information for how to reach me.  The page has interactive links and images to show more about what is being discuessed.
 
-![alt top](./develop/images/top.png)
-![alt middle](./develop/images/middle.png)
-![alt bottom](./develop/images/bottom.png)
+![alt top](images/top.png)
+![alt middle](images/middle.png)
+![alt bottom](images/bottom.png)
 
 ## Features
 
